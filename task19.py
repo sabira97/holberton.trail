@@ -1,10 +1,11 @@
 class Animal:
     def speak(self):
         print("Animal sound")
-class Cat(Animal):
+class Horse(Animal):
     def speak(self):
-        print("Meow :smiley_cat:")
-class Dog(Animal):
+        print("Neigh :horse:")
+class Elephant(Animal):
     def speak(self):
-        print("Woof :dog:")
-Dog().speak()
+        print("Trumpet :elephant:")
+    
+Elephant().speak()
