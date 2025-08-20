@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def elaqe():
+def home():
     return """
     <h1>Əlaqə</h1>
     <p>Email: sabira@example.com</p>

@@ -15,16 +15,23 @@ def home():
 def haqqinda():
     return """
     <h1>Haqqımda</h1>
-    <p>Mən Tahminayam, Flask öyrənirəm və bu mənim ilk saytiiiiiiım!</p>
+    <p>Mən Sabirayam, Flask öyrənirəm və bu mənim ilk saytiiiiiiım!</p>
     <a href="/">Geri qayıt</a>
     """
 @app.route("/elaqe")
 def elaqe():
     return """
     <h1>Əlaqə</h1>
-    <p>Email: tahmina@example.com</p>
+    <p>Email: sabira@example.com</p>
     <a href="/">Geri qayıt</a>
     """
+
+@app.route("/sabira")
+def sabira():
+    return"""
+    <h2> Sabira oxuyurrrrrrrrrrr</h2>
+    """
+
 if __name__ == "__main__":
     app.run(port=5013, debug=True)
 

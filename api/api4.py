@@ -4,8 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return"""
-    <a href="/"hobbiler</a>
+    return """
+    <h1> ebjbnelb </h1>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+    <a href="/hobbiler">Hobbiler</a>
+    <a href="/kitablar">Kitablar</a>
     """
 
 @app.route("/hobbiler")
@@ -19,6 +22,7 @@ def hobbiler():
     </ul>
     <a href="/">Geri qayıt</a>
     """
+
 
 if __name__ == "__main__":
     app.run(port=5016, debug=True)
